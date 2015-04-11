@@ -23,4 +23,7 @@ require_once 'Dependencies.class.php';
 
 $test = new Dependencies_Test();
 $test->add_direct_test();
-$test->dependencies->dependencies_for("A");
+$resultado = $test->dependencies->dependencies_for("A");
+
+//imprimir o array de dependencias na tela
+var_dump($resultado);

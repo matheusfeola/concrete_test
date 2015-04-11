@@ -50,7 +50,6 @@ class Dependencies
                 }
             }
         }
-        //return $dependentes;
-        var_dump($dependentes);
+        return $dependentes;
     }
 } //endclass
