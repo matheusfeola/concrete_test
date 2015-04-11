@@ -7,7 +7,7 @@ require_once 'Dependencies.class.php';
      public $dependencies;
 
      public function __construct() {
-         $this->dependencies = new Dependencies();
+         $this->dependencies = new DependenciesList();
      }
 
      public function add_direct_test() {
